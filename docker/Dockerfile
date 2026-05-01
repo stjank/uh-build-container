@@ -15,6 +15,7 @@ RUN apt update && \
         libboost-all-dev \
         libstdc++-16-dev \
         libicu-dev \
+        libcurl4-openssl-dev \
         git \
         ccache      && \
     rm -rf /var/lib/apt/lists/*
