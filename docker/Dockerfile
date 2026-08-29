@@ -16,6 +16,7 @@ RUN apt update && \
         libstdc++-14-dev \
         libicu-dev \
         libcurl4-openssl-dev \
+        opentelemetry-cpp-dev \
         git \
         ccache      && \
     rm -rf /var/lib/apt/lists/*
