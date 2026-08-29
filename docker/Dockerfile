@@ -1,4 +1,4 @@
-FROM debian:13.4
+FROM ubuntu:26.04
 
 RUN apt update && \
     apt install -y \
@@ -13,7 +13,7 @@ RUN apt update && \
         libgrpc++-dev \
         libgrpc-dev \
         libboost-all-dev \
-        libstdc++-14-dev \
+        libstdc++-16-dev \
         libicu-dev \
         libcurl4-openssl-dev \
         opentelemetry-cpp-dev \
